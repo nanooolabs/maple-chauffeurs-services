@@ -206,9 +206,9 @@ const HeaderVariant01 = ({ navigationSchema }) => {
             >
               <div className="b__header__header01__logo-wrapper u__cursor-pointer d-flex items-center gap-x-3 md:gap-x-4">
                 <Image
-                    src={"/static/logo/NanoLabsLogo.png"}
-                    width={40}
-                    height={40}
+                    src={"/static/logo/MapleChauffeursLogo.png"}
+                    width={50}
+                    height={50}
                     className="b__header__header01__logo-image object-contain"
                     alt="NanoLabs Logo"
                 />
@@ -238,8 +238,8 @@ const HeaderVariant01 = ({ navigationSchema }) => {
                 </ul>
                 <Button
                     className="text-center w-100"
-                    title={`Contact Us`}
-                    destination={`/contact-us`}
+                    title={`Book a Ride`}
+                    destination={`/booking`}
                 />
               </nav>
             </div>
@@ -286,8 +286,8 @@ const HeaderVariant01 = ({ navigationSchema }) => {
                   <div className="mt-4 pt-2">
                     <Button
                       className="text-center w-100"
-                      title={`Contact Us`}
-                      destination={`/contact-us`}
+                      title={`Book a Ride`}
+                      destination={`/booking`}
                     />
                   </div>
                 </nav>

@@ -3,10 +3,10 @@ import { css } from "styled-components";
 const Theme = css`
   :root {
     // Theme colors
-    --t-primary-branding-color: #780df2;
-    --t-primary-branding-hover-color: #670bd1;
-    --t-secondary-branding-color: #0d253a;
-    --t-secondary-branding-hover-color: #081724;
+    --t-primary-branding-color: #17153d;
+    --t-primary-branding-hover-color: #2e2a7c;
+    --t-secondary-branding-color: #563a62;
+    --t-secondary-branding-hover-color: #8a5d9d;
     // Buttons
     --t-button-padding: 0.7rem 1.6rem;
     --t-button-border-radius: 8px;
@@ -20,8 +20,8 @@ const Theme = css`
     --t-body-line-height: 1.5;
     --t-body-letter-spacing: 0px;
     --t-font-family-system: system-ui, -apple-system, BlinkMacSystemFont,
-      “Segoe UI”, Roboto, Oxygen-Sans, Ubuntu, Cantarell, “Helvetica Neue”,
-      Arial, sans-serif;
+    “Segoe UI”, Roboto, Oxygen-Sans, Ubuntu, Cantarell, “Helvetica Neue”,
+    Arial, sans-serif;
     --t-font-family-heading: "__customFont_a8cd55", var(--t-font-family-system);
     --t-font-family-body: "__customFont_a8cd55", var(--t-font-family-system);
     --t-font-weight-heading: 700;
@@ -90,13 +90,13 @@ const Theme = css`
     // Box shadows
     --t-box-shadow-xs: 0px 1px 2px rgba(16, 24, 40, 0.05);
     --t-box-shadow-sm: 0px 1px 3px rgba(16, 24, 40, 0.1),
-      0px 1px 2px rgba(16, 24, 40, 0.06);
+    0px 1px 2px rgba(16, 24, 40, 0.06);
     --t-box-shadow-md: 0px 4px 8px -2px rgba(16, 24, 40, 0.1),
-      0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+    0px 2px 4px -2px rgba(16, 24, 40, 0.06);
     --t-box-shadow-lg: 0px 12px 16px -4px rgba(16, 24, 40, 0.08),
-      0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+    0px 4px 6px -2px rgba(16, 24, 40, 0.03);
     --t-box-shadow-xl: 0px 20px 24px -4px rgba(16, 24, 40, 0.08),
-      0px 8px 8px -4px rgba(16, 24, 40, 0.03);
+    0px 8px 8px -4px rgba(16, 24, 40, 0.03);
     --t-box-shadow-2xl: 0px 24px 48px -12px rgba(16, 24, 40, 0.18);
     --t-box-shadow-3xl: 0px 32px 64px -12px rgba(16, 24, 40, 0.14);
     // Misc
